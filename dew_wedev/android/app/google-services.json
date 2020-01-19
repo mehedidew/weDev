@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "885679727639",
+    "firebase_url": "https://wedevs-task.firebaseio.com",
+    "project_id": "wedevs-task",
+    "storage_bucket": "wedevs-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885679727639:android:65f05e4b3e5a71c3d62852",
+        "android_client_info": {
+          "package_name": "com.mhdew.dew_wedev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885679727639-ocftcp1m4d2vqjifq5s0hvg8l2qbp6nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASSB99QdNM9HALcgRE1bEChetPNUnLgwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885679727639-ocftcp1m4d2vqjifq5s0hvg8l2qbp6nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

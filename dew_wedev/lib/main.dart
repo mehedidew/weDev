@@ -36,7 +36,9 @@ class _HomePageState extends State<HomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
+            Image.asset('images/wedev.png',
+            width: 200,
+            ),
             Padding(
               padding: const EdgeInsets.only(left: 50, right: 50, top: 50),
               child: TextField(
