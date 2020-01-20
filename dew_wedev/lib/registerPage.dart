@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
@@ -11,6 +12,7 @@ class Register extends StatefulWidget {
 
 class _RegisterState extends State<Register> {
   final _auth = FirebaseAuth.instance;
+  final _firestore = Firestore.instance;
   bool spinner = false;
   String email, password, firstName, lastName;
 
@@ -161,7 +163,16 @@ class _RegisterState extends State<Register> {
                         final newUser =
                             await _auth.createUserWithEmailAndPassword(
                                 email: email, password: password);
-                        print(newUser.user.uid);
+
+                        _firestore
+                            .collection('users')
+                            .document(newUser.user.uid)
+                            .setData({
+                          'email': email,
+                          'firstName': firstName,
+                          'lastName': lastName,
+                          'uId': newUser.user.uid
+                        });
                         if (newUser != null) {
                           Navigator.push(
                               context,
