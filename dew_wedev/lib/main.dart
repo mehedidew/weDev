@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primaryColor: Colors.green, accentColor: Colors.greenAccent),
       home: HomePage(),
@@ -129,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                             builder: (BuildContext context) => Register()));
                   },
                   child: Text(
-                    'Register',
+                    'Create an Account',
                     textAlign: TextAlign.end,
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),

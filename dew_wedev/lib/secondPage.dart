@@ -29,6 +29,7 @@ class _SecondPageState extends State<SecondPage> {
 
   @override
   Widget build(BuildContext context) {
+
     return WillPopScope(
       onWillPop: _onBackPressed,
       child: ModalProgressHUD(
@@ -46,7 +47,7 @@ class _SecondPageState extends State<SecondPage> {
                     Card(
                       margin: EdgeInsets.only(
                           left: 10, right: 10, top: 10, bottom: 5),
-                      color: Colors.purple[100],
+                      color: Colors.green[100],
                       child: Row(
                         children: <Widget>[
                           Expanded(
@@ -59,7 +60,7 @@ class _SecondPageState extends State<SecondPage> {
                             ),
                           ),
                           Expanded(
-                            flex: 3,
+                            flex: 2,
                             child: TextField(
                               enabled: enable,
                               decoration: InputDecoration(
@@ -78,7 +79,7 @@ class _SecondPageState extends State<SecondPage> {
                     Card(
                       margin: EdgeInsets.only(
                           left: 10, right: 10, top: 10, bottom: 5),
-                      color: Colors.purple[100],
+                      color: Colors.green[100],
                       child: Row(
                         children: <Widget>[
                           Expanded(
@@ -91,7 +92,7 @@ class _SecondPageState extends State<SecondPage> {
                             ),
                           ),
                           Expanded(
-                            flex: 3,
+                            flex: 2,
                             child: TextField(
                               enabled: enable,
                               decoration: InputDecoration(
