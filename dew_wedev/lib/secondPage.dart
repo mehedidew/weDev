@@ -29,13 +29,13 @@ class _SecondPageState extends State<SecondPage> {
 
   @override
   Widget build(BuildContext context) {
-
     return WillPopScope(
       onWillPop: _onBackPressed,
       child: ModalProgressHUD(
         inAsyncCall: spinner,
         child: Scaffold(
           appBar: AppBar(
+            title: Text('Update Info'),
             backgroundColor: Colors.green,
             leading: Container(),
           ),
