@@ -30,7 +30,7 @@ class _RegisterState extends State<Register> {
               Card(
                 margin:
                     EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 5),
-                color: Colors.purple[100],
+                color: Colors.green[100],
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -60,7 +60,7 @@ class _RegisterState extends State<Register> {
               Card(
                 margin:
                     EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 5),
-                color: Colors.purple[100],
+                color: Colors.green[100],
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -90,7 +90,7 @@ class _RegisterState extends State<Register> {
               Card(
                 margin:
                     EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 5),
-                color: Colors.purple[100],
+                color: Colors.green[100],
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -103,7 +103,7 @@ class _RegisterState extends State<Register> {
                       ),
                     ),
                     Expanded(
-                      flex: 3,
+                      flex: 2,
                       child: TextField(
                         decoration: InputDecoration(
                             border: InputBorder.none,
@@ -120,7 +120,7 @@ class _RegisterState extends State<Register> {
               Card(
                 margin:
                     EdgeInsets.only(left: 10, right: 10, top: 10, bottom: 5),
-                color: Colors.purple[100],
+                color: Colors.green[100],
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -133,7 +133,7 @@ class _RegisterState extends State<Register> {
                       ),
                     ),
                     Expanded(
-                      flex: 3,
+                      flex: 2,
                       child: TextField(
                         decoration: InputDecoration(
                             border: InputBorder.none,
